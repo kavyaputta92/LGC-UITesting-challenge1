@@ -19,8 +19,15 @@ Ensure you have the following installed on your system:
 2. **Node.js** (for Playwright browser installation)
 3. **Allure CLI** (for generating HTML reports)
 4. **PycharmIDE** (for test execution)
+   
+## Setup
 
-### Install below Packages
+```bash
+git clone https://github.com/kavyaputta92/LGC-UITesting-challenge1.git
+cd LGC-UITesting-challenge1
+
+## Install below Packages
+Install Playwright using the following commands:
 
 ```bash
 ##Install playwright
@@ -38,7 +45,6 @@ Add C:\allure\bin to your system PATH.
 
 🚀 Running the Tests
 Execute the following command from your pycharm project "Scripts" folder path to run the tests and generate the Allure results:
-
 
 1. Run Tests with Allure Results Directory
 ```bash
