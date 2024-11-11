@@ -49,5 +49,7 @@ pytest -v --alluredir=allure-results
 allure serve allure-results
 
 🛠 Troubleshooting
-allure: command not found
+ModuleNotFoundError: Ensure that pytest, playwright, and allure-pytest are installed in the correct environment.
+Browser Launch Error: If the browser fails to launch, make sure Playwright browsers are installed using python -m playwright install.
+Allure Report Not Displayed: Check that the allure-results directory is not empty. If it is, ensure the tests are run with --alluredir=allure-results.
 If you encounter this error, ensure Allure CLI is installed and added to your system PATH. Restart your terminal after making changes to the PATH.
