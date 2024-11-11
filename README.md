@@ -9,7 +9,7 @@ Python automated test using playwright
 
 # TODO MVC Playwright Test with Allure Reporting
 
-This project automates testing of the TODO MVC application using **Playwright**, **Pytest**, and **Allure** for detailed reporting.
+This python project automates testing of the TODO MVC application using **Playwright**, **Pytest**, and **Allure** for detailed reporting.
 
 ## 🛠 Prerequisites
 
